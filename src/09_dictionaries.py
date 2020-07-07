@@ -51,6 +51,6 @@ print(waypoints)
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
-for x in waypoints:
-    for i in x:
-        print(x[i])
+for i in waypoints:
+    for x in i:
+        print(i[x])
